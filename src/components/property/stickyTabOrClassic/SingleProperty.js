@@ -25,7 +25,7 @@ const SinglePropertySection = () => {
           <DetailsDeskBox />
           <FloorPlanDeskBox />
           <LocationMapDeskBox />
-          <ReviewsDeskBox />
+          {/* <ReviewsDeskBox /> */}
         </div>
       </div>
     </Col>

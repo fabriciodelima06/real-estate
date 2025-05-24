@@ -26,10 +26,10 @@ const BodyContent = ({ side }) => {
             <Sidebar mortgage={true} side={side} singleProperty={true}>
               <ContactInfo />
               <Exploration />
-              <Filter sm={12} />
+              {/* <Filter sm={12} /> */}
               <Featured />
               <RecentlyAdded />
-              <Mortgage />
+              {/* <Mortgage /> */}
             </Sidebar>
             <SinglePropertySection />
           </Row>

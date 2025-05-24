@@ -64,7 +64,7 @@ const FeatureSection = ({ value }) => {
                                   </span>
                                 </a>
                                 <div className="property-btn">
-                                  <Link href={`/property/image-box/?id=${data.id}`} className="btn btn-dashed btn-pill" tabIndex="0">
+                                  <Link href={`/property/${data.id}`} className="btn btn-dashed btn-pill" tabIndex="0">
                                     Details
                                   </Link>
                                 </div>

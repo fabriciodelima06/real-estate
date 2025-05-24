@@ -46,7 +46,7 @@ const GridView = ({ side, size, gridType, listSize, mapModal, mapView, relativeS
           {side && (
             <Sidebar side={side}>
               <Filter value={value} sm={12} lg={12} /> <Category value={value} />
-              <ContactInfo />
+              {/* <ContactInfo /> */}
               <RecentlyAdded />
             </Sidebar>
           )}

@@ -2,7 +2,7 @@
 import React, { Fragment } from "react";
 import dynamic from "next/dynamic";
 import NavbarThree from "@/layout/headers/NavbarThree";
-import Breadcrumb from "@/layout/Breadcrumb/BreadCrumb2";
+import Breadcrumb from "@/layout/Breadcrumb/Breadcrumb2";
 import FooterThree from "@/layout/footers/FooterThree";
 
 const DynamicBodyContent = dynamic(() => import("@/components/pages/portfolio/grid/index.js"), {

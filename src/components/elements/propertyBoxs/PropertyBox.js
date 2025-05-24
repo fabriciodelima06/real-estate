@@ -47,7 +47,8 @@ const PropertyBox = ({ data, relativeSlider, video }) => {
 
           <div className="property-details">
             <span className="font-roboto">{data.country || "USA"} </span>
-            <Link href={{ pathname: Array.isArray(data.img) ? "/property/image-slider" : "/property/image-box", query: { id: data.id } }}>
+            <Link href={{ pathname: `/property/${data.id}`, query: {} }}>
+              {/* <Link href={{ pathname: Array.isArray(data.img) ? "/property/image-slider" : "/property/image-box", query: { id: data.id } }}> */}
               <h3>{data.title}</h3>
             </Link>
             <h6>

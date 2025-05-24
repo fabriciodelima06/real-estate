@@ -1,6 +1,6 @@
 export const propertyData = {
   LatestForSalePropertyData: [
-    { title: "Neverland", propertyStatus: "For Sale", label: ["sale"], price: "13000", bed: 2, bath: 1, balcony: 1, area: 120, id: "1", img: "/assets/images/others/1.jpg", date: "Feb 6 2022" },
+    { title: "Neverland", propertyStatus: "For Sale", label: ["sale"], price: "13000", bed: 2, bath: 1, balcony: 1, area: 120, id: "1", img: "/assets/images/2.jpg", date: "Feb 6 2022" },
     {
       title: "Orchard House",
       propertyStatus: "For Rent",
